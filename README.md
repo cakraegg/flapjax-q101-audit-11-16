@@ -23,9 +23,11 @@ public BSC RPC (`eth_getBlockByNumber`):
 | Boundary | Block | Timestamp |
 |---|---|---|
 | First block of the day | **133867831** | 2026-11-16 05:00:00 UTC (= 00:00:00 COT) |
-| Last block of the day | **134059779** | 2026-11-17 04:59:59 UTC (= 23:59:59 COT) |
+| Last block of the day | **134059780** | 2026-11-17 04:59:59 UTC (= 23:59:59 COT) |
 
-Range scanned: 133867831–134059779 (191,948 blocks).
+Range scanned: 133867831–134059780 (191,949 blocks). (Note: block 134059780
+shares the 04:59:59 UTC timestamp with 134059779 — the last block is the
+last one whose timestamp is still ≤ 23:59:59 COT.)
 
 ## Method
 
